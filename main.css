@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Share+Tech+Mono&display=swap');*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none ;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:Share Tech Mono ;
+    font-weight: 400;
+    background: none;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 15px;
+    width: 100%;
+    margin: auto;
+}
+.header{
+    border: 1px solid #242424;
+  background: white;  
+  padding: 10px 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    gap: 80px;
+    color: #242424;
+}
+.header__nav-icons{
+     display: flex;
+    gap: 40px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+.header__list a{
+      color: #242424;
+  font-size: 20px;
+  position: relative;
+
+}
+.header__list a ::after{
+   content: "";
+   width: 100%;
+   display: block;
+   height: 2px;
+   background: #242424;
+   transition: 3s;
+   opacity: 0;
+}
+.header__list a::after{
+    width: 100%;
+    opacity: 1;
+}
+.header__lang{
+    font-size: 20px;
+    border: 1px solid #000000;
+    padding: 4px;
+    cursor: pointer;
+}
+body{
+    background: #f9f9f9;
+}
+.hero{
+background: url(images/herobg.png);
+height: 100vh;
+background-size: cover; 
+}
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 132px;
+    gap: 40px;
+    text-align: center;
+    
+}
+h1{
+    color: #242424;
+    font-size: 80px;
+    font-weight: 500;
+}
+.btn{
+    border: 2px solid #242424;
+    font-size: 24px;
+    background: white;
+    padding: 16px 105px;
+    display: block;
+    width: max-content;
+}
+.about, .catalog{
+    display: flex;
+    align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+.main h2{
+   font-size: 40px;
+color: #303030;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+gap: 16px;
+}
+.main h2::after {
+content: "";
+width: 168px;
+height: 2px;
+background: #242424;
+display: inline-block;
+}
+.main p{
+    max-width: 451px;
+    font-size: 20px;
+
+}
+.main .btn{
+    margin-top: 20px;
+}
